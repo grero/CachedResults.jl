@@ -6,7 +6,7 @@ A very simple tool to avoid re-computation of results.
 
 ## Basic usage
 
-This simple tool is a quick and dirty way to avoid having to re-run costly computations. It essentially aves the output of a function to file whose name is uniquely determined by a hash of the supplied arguments.
+This simple tool is a quick and dirty way to avoid having to re-run costly computations. It essentially saves the output of a function to a file whose name is uniquely determined by a hash of the supplied arguments.
 
 ```julia
 using CachedResults
